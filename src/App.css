@@ -1,0 +1,194 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#root, .kernel, .land-master,.app,.app-body{
+  width: 100%;
+  height: 100%;
+}
+.app-body{
+  position: relative;
+  display: flex;
+  height:calc(100% - 56px)
+}
+.header-admin{
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  background: #026b97;
+}
+  .header-admin .user-name{
+    color: #fff;
+  }
+.sidebar{
+  width: 222px;
+  min-width: 222px;
+  border-right: 1px solid #ccc;
+  transition: 0.4s;
+}
+.Home-sidebar-1 .nav{
+  margin: 0;
+ 
+}
+
+.Home-sidebar-1{
+  overflow: auto!important;
+  height: calc(100% - 40px)!important;
+  background: #f5f5f5;
+}
+.Home-sidebar-1 .nav .nav-item{
+  line-height: 32px;
+  width:100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.Home-sidebar-1 .nav-link{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.Home-sidebar-1 .nav .nav-item:hover{
+  color: #000;
+  /* background:#0a9be11a ; */
+  cursor: pointer;
+}
+.sidebar .list-sub-menu{
+  list-style-type: none;
+  padding: 0 4px;
+}
+.app-side-bar{
+  position: relative;
+  height: 40px;
+  background: #026b97 ;
+  width: 222px;
+}
+.icon-sidebar img{
+  width: 16px;
+  height: 16px;
+}
+.news-item img{
+  margin-right: 8px;
+}
+.doctor img{
+  display: none;
+}
+.title-manage-admin{
+  margin-top: 8px;
+    color: #80b5ec;
+}
+.menu-item-name{
+  margin-left: 8px;
+}
+.main{
+  width: calc(100% - 222px);
+    padding: 8px;
+    overflow-y: auto;
+}
+.main table tr:nth-child(2n){
+  background: #f5f5f5;
+}
+.main table tr:hover{
+  cursor: pointer;
+  background: #e4e9ff;
+}
+.main .container-fluid{
+    width: 100%;
+    background: #fff;
+}
+.table-data-admin{
+  border: 1px solid #ccc;
+}
+.MuiTableCell-head {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  line-height: 1.5rem;
+  font-weight: 600!important;
+  background: #f5f5f5;
+}
+.MuiLinearProgress-colorPrimary {
+  background-color: rgb(161, 217, 243);
+  width: 100%;
+}
+.logo{
+  min-width: 222px;
+    border-right: 1px solid #ccc;
+    background: #026b97;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 48px;
+}
+.settings{
+  position: relative;
+  top: 16px;
+  right: 16px;
+}
+.sub-menu-settings{
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  background: #fff;
+  z-index: 10;
+  top: 24px;
+  width: 100%;
+}
+li.item-settings {
+  padding: 8px;
+}
+li.item-settings:hover {
+  cursor: pointer;
+  background: #ccc;
+}
+
+.wrapper-form-login{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background: #ccc;
+}
+.login-form{
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+.login-form form{
+  margin-top: 64px;
+}
+.login-form input{
+  margin-bottom: 24px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 32px;
+    padding: 4px 8px;
+}
+.login-form button{
+  padding: 4px 88px;
+}
+/* Login */
+.sidebar .nav-item .nav-link:hover, .sidebar .nav .nav-link.active {
+  font-weight: 500;
+    background: #fff;
+    color: #026b97;
+}
+.MuiTable-root{
+  max-width: 2028px;
+  overflow-x: auto;
+}
+.input-add-update{
+  width: 100%;
+  margin-bottom: 8px;
+}
