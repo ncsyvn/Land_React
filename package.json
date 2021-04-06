@@ -5,7 +5,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^16.0.0",
     "@ckeditor/ckeditor5-build-classic": "^15.0.0",
-    "@ckeditor/ckeditor5-image": "^15.0.0",
+    "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-react": "^2.0.0",
     "@coreui/coreui": "2.1.16",
     "@coreui/react": "^2.5.4",
